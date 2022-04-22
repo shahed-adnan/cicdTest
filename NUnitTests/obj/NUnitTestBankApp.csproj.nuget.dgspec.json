@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTestBankApp\\NUnitTestBankApp.csproj": {}
+    "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTests\\NUnitTestBankApp.csproj": {}
   },
   "projects": {
     "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\BankApp\\BankApp.csproj": {
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTestBankApp\\NUnitTestBankApp.csproj": {
+    "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTests\\NUnitTestBankApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTestBankApp\\NUnitTestBankApp.csproj",
+        "projectUniqueName": "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTests\\NUnitTestBankApp.csproj",
         "projectName": "NUnitTestBankApp",
-        "projectPath": "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTestBankApp\\NUnitTestBankApp.csproj",
+        "projectPath": "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTests\\NUnitTestBankApp.csproj",
         "packagesPath": "C:\\Users\\fargi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTestBankApp\\obj\\",
+        "outputPath": "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fargi\\AppData\\Roaming\\NuGet\\NuGet.Config",

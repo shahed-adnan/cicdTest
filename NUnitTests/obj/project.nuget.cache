@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TeUb8zI3y7S+TUDxZIr8821127xOGCiCoo4tBGzzGe0px4LMXzjndOaceVsiP7WgNKsw3EpiDDyxTWrsGBHbTw==",
+  "dgSpecHash": "MAoToSAoPnCFCehLqY2xtakVYXO4YUjo6JgKQnRL7XxWIvHEPrIJ5CQ+WPCxgjRHafV0JEzRKiaw/MU/HchbiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTestBankApp\\NUnitTestBankApp.csproj",
+  "projectFilePath": "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\NUnitTests\\NUnitTestBankApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fargi\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\fargi\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

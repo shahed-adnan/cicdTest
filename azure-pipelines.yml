@@ -1,0 +1,58 @@
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+stages:
+  - stage: Build
+    jobs:
+      - job: build
+        steps:
+        - task: UseDotNet@2
+          inputs:
+            version: 5.0.x
+            includePreviewVersions: true
+        - task: UseDotNet@2
+          inputs:
+            version: 3.0.x
+            packageType: runtime
+        - task: UseDotNet@2
+          displayName: 'Install .NET Core SDK'
+          inputs:
+            version: 5.0.x
+            includePreviewVersions: true
+            performMultiLevelLookup: true
+        
+        - task: DotNetCoreCLI@2
+          displayName: 'restore nuget package'
+          inputs:
+            command: restore
+            restoreDirectory: '**/*.sln'
+            feedsToUse: select
+            vstsFeed: 'my-vsts-feed'
+        
+        - task: DotNetCoreCLI@2
+          displayName: 'dotnet build $(buildConfiguration)'
+          inputs:
+            command: build
+            projects: '**/*.csproj'
+            arguments: '--configuration $(buildConfiguration)'
+        
+        - task: DotNetCoreCLI@2          
+          inputs:
+            command: test
+            projects: '**/*Tests/*.csproj'
+            arguments: '--configuration $(buildConfiguration)'
+        # How can I see that tests are running successfully?? 
+

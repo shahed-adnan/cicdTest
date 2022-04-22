@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E7JXGMsfEiXOt9j5EsQFghzVfKDwp0Z+rls+xqlge7UTSz6ztBTX3iydxwFEAfy9K9QAyLbeuREHQHvZADEpfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fargi\\OneDrive\\Documents\\Adnan\\CI CD\\cicdTest\\AzureDevOps\\cicdTest\\BankApp\\BankApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fargi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}
